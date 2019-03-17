@@ -228,11 +228,11 @@ def check_num_stories(stories_dir, num_expected):
 
 
 if __name__ == '__main__':
-  if len(sys.argv) != 3:
-    print("USAGE: python make_datafiles.py <cnn_stories_dir> <dailymail_stories_dir>")
-    sys.exit()
-  cnn_stories_dir = sys.argv[1]
-  dm_stories_dir = sys.argv[2]
+  # if len(sys.argv) != 3:
+  #  print("USAGE: python make_datafiles.py <cnn_stories_dir> <dailymail_stories_dir>")
+  # 	sys.exit()
+  # cnn_stories_dir = sys.argv[1]
+  # dm_stories_dir = sys.argv[2]
 
   # # Check the stories directories contain the correct number of .story files
   # check_num_stories(cnn_stories_dir, num_expected_cnn_stories)
